@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">menuapp</string>
     <string name="title_activity_main2">MainActivity2</string>
+    <string name="imagen_de_tecnolog_a_y_humano">Imagen de tecnología y humano</string>
+    <string name="volver">Volver</string>
+    <string name="tecnolog_a_en_nuestro_mundo">Tecnología en nuestro mundo</string>
 </resources>

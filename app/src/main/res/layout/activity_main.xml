@@ -24,14 +24,14 @@
                 android:layout_width="147dp"
                 android:layout_height="195dp"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/boton1" />
+                app:srcCompat="@drawable/cellphonebutton" />
 
             <ImageButton
                 android:id="@+id/imageButton1"
                 android:layout_width="147dp"
                 android:layout_height="195dp"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/boton2" />
+                app:srcCompat="@drawable/watchbutton" />
         </TableRow>
 
         <TableRow
@@ -43,14 +43,14 @@
                 android:layout_width="147dp"
                 android:layout_height="195dp"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/boton4" />
+                app:srcCompat="@drawable/laptopbutton" />
 
             <ImageButton
                 android:id="@+id/imageButton3"
                 android:layout_width="147dp"
                 android:layout_height="195dp"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/boton3" />
+                app:srcCompat="@drawable/tabletbutton" />
         </TableRow>
 
         <TableRow
