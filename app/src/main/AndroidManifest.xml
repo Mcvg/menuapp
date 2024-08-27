@@ -13,6 +13,21 @@
         android:theme="@style/Theme.Menuapp"
         tools:targetApi="31">
         <activity
+            android:name=".ActivityExfoliant"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityDespigmenting"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityOil"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityCoal"
+            android:exported="false" />
+        <activity
+            android:name=".CoalActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity3"
             android:exported="false" />
         <activity

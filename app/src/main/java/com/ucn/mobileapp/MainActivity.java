@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             public void onClick(View view) {
                 Toast notification = Toast.makeText(MainActivity.this, "Exfoliante facial", Toast.LENGTH_SHORT);
                 notification.show();
-                Intent intencion = new Intent(getApplicationContext(), MainActivity3.class);
+                Intent intencion = new Intent(getApplicationContext(), ActivityExfoliant.class);
                 startActivity(intencion);
             }
         }
@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             public void onClick(View view) {
                 Toast notification = Toast.makeText(MainActivity.this, "Despigmentante íntimo", Toast.LENGTH_SHORT);
                 notification.show();
-                Intent intencion = new Intent(getApplicationContext(), MainActivity3.class);
+                Intent intencion = new Intent(getApplicationContext(), ActivityDespigmenting.class);
                 startActivity(intencion);
             }
         }
@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             public void onClick(View view) {
                 Toast notification = Toast.makeText(MainActivity.this, "Aceite bronceador", Toast.LENGTH_SHORT);
                 notification.show();
-                Intent intencion = new Intent(getApplicationContext(), MainActivity3.class);
+                Intent intencion = new Intent(getApplicationContext(), ActivityOil.class);
                 startActivity(intencion);
             }
         }
@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             public void onClick(View view) {
                 Toast notification = Toast.makeText(MainActivity.this, "Carbón activado", Toast.LENGTH_SHORT);
                 notification.show();
-                Intent intencion = new Intent(getApplicationContext(), MainActivity3.class);
+                Intent intencion = new Intent(getApplicationContext(), ActivityCoal.class);
                 startActivity(intencion);
             }
         }

@@ -10,10 +10,11 @@
     <TableLayout
         android:layout_width="516dp"
         android:layout_height="726dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="68dp"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="14dp">
+        tools:ignore="MissingConstraints">
 
         <TableRow
             android:layout_width="346dp"
@@ -53,13 +54,6 @@
                 app:srcCompat="@drawable/oilbutton" />
         </TableRow>
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="40dp" />
     </TableLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
