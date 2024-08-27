@@ -2,6 +2,6 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item android:state_pressed="true"
-        android:drawable="@drawable/celularfiltro"/>
-    <item android:drawable="@drawable/celular"/>
+        android:drawable="@drawable/aceitefiltro"/>
+    <item android:drawable="@drawable/aceite"/>
 </selector>

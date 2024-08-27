@@ -8,12 +8,12 @@
     tools:context=".MainActivity">
 
     <TableLayout
-        android:layout_width="397dp"
-        android:layout_height="647dp"
+        android:layout_width="516dp"
+        android:layout_height="726dp"
         android:layout_marginTop="8dp"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="14dp"
-        tools:ignore="MissingConstraints">
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="14dp">
 
         <TableRow
             android:layout_width="346dp"
@@ -24,14 +24,14 @@
                 android:layout_width="147dp"
                 android:layout_height="195dp"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/cellphonebutton" />
+                app:srcCompat="@drawable/depigmentingbutton" />
 
             <ImageButton
                 android:id="@+id/imageButton1"
                 android:layout_width="147dp"
                 android:layout_height="195dp"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/watchbutton" />
+                app:srcCompat="@drawable/exfoliantbutton" />
         </TableRow>
 
         <TableRow
@@ -43,14 +43,14 @@
                 android:layout_width="147dp"
                 android:layout_height="195dp"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/laptopbutton" />
+                app:srcCompat="@drawable/coalbutton" />
 
             <ImageButton
                 android:id="@+id/imageButton3"
                 android:layout_width="147dp"
                 android:layout_height="195dp"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/tabletbutton" />
+                app:srcCompat="@drawable/oilbutton" />
         </TableRow>
 
         <TableRow

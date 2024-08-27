@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         boton1.setOnClickListener((new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast notification = Toast.makeText(MainActivity.this, "Reloj inteligente", Toast.LENGTH_SHORT);
+                Toast notification = Toast.makeText(MainActivity.this, "Exfoliante facial", Toast.LENGTH_SHORT);
                 notification.show();
                 Intent intencion = new Intent(getApplicationContext(), MainActivity3.class);
                 startActivity(intencion);
@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         boton2.setOnClickListener((new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast notification = Toast.makeText(MainActivity.this, "Celular android", Toast.LENGTH_SHORT);
+                Toast notification = Toast.makeText(MainActivity.this, "Despigmentante íntimo", Toast.LENGTH_SHORT);
                 notification.show();
                 Intent intencion = new Intent(getApplicationContext(), MainActivity3.class);
                 startActivity(intencion);
@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         boton3.setOnClickListener((new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast notification = Toast.makeText(MainActivity.this, "Tablet", Toast.LENGTH_SHORT);
+                Toast notification = Toast.makeText(MainActivity.this, "Aceite bronceador", Toast.LENGTH_SHORT);
                 notification.show();
                 Intent intencion = new Intent(getApplicationContext(), MainActivity3.class);
                 startActivity(intencion);
@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         boton4.setOnClickListener((new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast notification = Toast.makeText(MainActivity.this, "Portátil", Toast.LENGTH_SHORT);
+                Toast notification = Toast.makeText(MainActivity.this, "Carbón activado", Toast.LENGTH_SHORT);
                 notification.show();
                 Intent intencion = new Intent(getApplicationContext(), MainActivity3.class);
                 startActivity(intencion);
